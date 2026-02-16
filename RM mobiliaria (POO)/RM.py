@@ -71,3 +71,46 @@ class orçamento:
             for mes in range(1, 13):
                 writer.writerow([mes, f"{valor_aluguel:.2f}"])
     
+
+print("Olá somos a RM Mobiliaria! estamos aqui para auxiliar na escolha do seu novo lar!")
+print("1 - Apartamento")
+print("2 - Casa")
+print("3 - Estúdio")
+tipo = input("Escolha o tipo de imóvel: ")
+
+if tipo == "1":
+    quartos = int(input("Quartos (1 ou 2): "))
+    tem_crianca = input("Possui crianças? (s/n): ").lower() == "s"
+    garagem = input("Deseja garagem? (s/n): ").lower() == "s"
+    imovel = Apartamento(quartos, tem_crianca, garagem)
+
+elif tipo == "2":
+    quartos = int(input("Quartos (1 ou 2): "))
+    garagem = input("Deseja garagem? (s/n): ").lower() == "s"
+    imovel = casa(quartos, garagem)
+
+elif tipo == "3":
+    vagas = int(input("Quantidade de vagas: "))
+    imovel = estudio(vagas)
+
+else:
+    print("Opção inválida.")
+    exit()
+
+orcamento = orçamento(imovel)
+valor_final = imovel.calcular_aluguel()
+
+parcelas = int(input("Contrato em quantas vezes? (1 a 5): "))
+valor_parcela = orcamento.parcelar_contrato(parcelas)
+
+print("Aqui está seu orçamento final: ")
+print(f"Aluguel mensal: R$ {valor_final:.2f}")
+print(f"Contrato: R$ 2000.00")
+print(f"Contrato parcelado em {parcelas}x de R$ {valor_parcela:.2f}")
+
+gerar = input("Deseja gerar CSV com 12 meses? (s/n): ")
+if gerar == "s":
+    orcamento.gerar_csv(valor_final)
+    print("Arquivo 'orcamento_rm.csv' gerado com sucesso!")
+else: 
+    print("Sem problemas! Obrigado por confiar nos nossos sewrviços!")
