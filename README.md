@@ -21,6 +21,16 @@ Python 3
 
 Biblioteca padrão csv
 
+Paradigma Utilizado
+
+O sistema foi desenvolvido utilizando Programação Orientada a Objetos (POO), aplicando os conceitos de:
+
+Abstração
+
+Herança
+
+Encapsulamento
+
 Estrutura do Projeto
 
 rm_imobiliaria_poo.py → código principal do sistema
