@@ -6,7 +6,7 @@ O sistema realiza o cálculo do valor do aluguel com base no tipo de imóvel sel
 
 Este projeto foi desenvolvido com foco na aplicação prática de Programação Orientada a Objetos (POO), reforçando conceitos fundamentais de modelagem e organização de software.
 
-🚀 Funcionalidades
+<h1>🚀 Funcionalidades </h1>
 
 ✔ Seleção do tipo de imóvel:
 
@@ -21,7 +21,7 @@ Este projeto foi desenvolvido com foco na aplicação prática de Programação 
 ✔ Parcelamento do contrato em até 5 vezes
 ✔ Geração automática de arquivo .csv com 12 parcelas
 
-🛠️ Tecnologias Utilizadas
+<h1>🛠️ Tecnologias Utilizadas</h1>
 Tecnologia	Descrição
 Python 3	Linguagem principal do projeto
 Biblioteca csv	Geração e manipulação do arquivo de parcelas
@@ -36,17 +36,19 @@ O sistema foi desenvolvido com base nos principais pilares da Programação Orie
 
 🔹 Encapsulamento – Proteção e organização de atributos e métodos
 
-📂 Estrutura do Projeto
+<h1>📂 Estrutura do Projeto</h1>
 📁 rm-imobiliaria/
  ├── rm_imobiliaria_poo.py   # Código principal do sistema
  ├── orcamento_rm.csv        # Arquivo gerado com as parcelas
  └── README.md
-▶️ Como Executar
-1️⃣ Pré-requisitos
+
+
+<h1>▶️ Como Executar</h1>
+<h2>1️⃣ Pré-requisitos</h2>
 
 Ter o Python 3 instalado na máquina.
 
-2️⃣ Execução
+<h2>2️⃣ Execução</h2>
 
 No terminal, dentro da pasta do projeto:
 
@@ -60,7 +62,8 @@ Parcela	Valor
 2	R$ XXXX
 ...	...
 12	R$ XXXX
-📚 Objetivo Acadêmico
+
+<h1>📚 Objetivo Acadêmico</h1>
 
 Este projeto foi desenvolvido como prática de:
 
