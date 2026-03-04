@@ -50,13 +50,13 @@ Pré-requisitos
 
 Ter o Python 3 instalado na máquina.
 
-Execução
+<h1>como executar o código: </h1>
 
 No terminal, dentro da pasta do projeto:
 
 python rm_imobiliaria_poo.py
 
-Após a execução, o arquivo orcamento_rm.csv será gerado automaticamente no diretório do projeto.
+Após a execução, o arquivo orcamento_rm.csv será gerado automaticamente no diretório(nos arquivos) do projeto.
 
 <h1>📚 Objetivo Acadêmico</h1>
 
