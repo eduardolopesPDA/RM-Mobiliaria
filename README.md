@@ -8,13 +8,13 @@ Este projeto foi desenvolvido com foco na aplicação prática de Programação 
 
 <h1>🚀 Funcionalidades</h1>
 
-Seleção do tipo de imóvel:
+<h2>Seleção do tipo de imóvel:</h2>
 
-Apartamento
+🏢 Apartamento
 
-Casa
+🏠 Casa
 
-Estúdio
+🏬 Estúdio
 
 Cálculo automático do valor do aluguel
 
