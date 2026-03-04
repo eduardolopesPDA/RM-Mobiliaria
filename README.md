@@ -1,54 +1,58 @@
-📌 About
+<h1>📌 About</h1>
 
 O R.M Imobiliária – Sistema de Orçamento é uma aplicação desenvolvida em Python com o objetivo de automatizar a geração de orçamentos de imóveis.
 
-O sistema realiza o cálculo do valor do aluguel com base no tipo de imóvel selecionado, aplica descontos e adicionais quando necessário e gera automaticamente um arquivo .csv contendo as 12 parcelas mensais do contrato.
+O sistema calcula o valor do aluguel com base no tipo de imóvel selecionado, aplica descontos e adicionais quando necessário e gera automaticamente um arquivo .csv contendo as 12 parcelas mensais do contrato.
 
 Este projeto foi desenvolvido com foco na aplicação prática de Programação Orientada a Objetos (POO), reforçando conceitos fundamentais de modelagem e organização de software.
 
-<h1>🚀 Funcionalidades </h1>
+<h1>🚀 Funcionalidades</h1>
 
-✔ Seleção do tipo de imóvel:
+Seleção do tipo de imóvel:
 
-🏢 Apartamento
+Apartamento
 
-🏠 Casa
+Casa
 
-🏬 Estúdio
+Estúdio
 
-✔ Cálculo automático do valor do aluguel
-✔ Aplicação de descontos e taxas adicionais
-✔ Parcelamento do contrato em até 5 vezes
-✔ Geração automática de arquivo .csv com 12 parcelas
+Cálculo automático do valor do aluguel
+
+Aplicação de descontos e taxas adicionais
+
+Parcelamento do contrato em até 5 vezes
+
+Geração automática de arquivo .csv com 12 parcelas
 
 <h1>🛠️ Tecnologias Utilizadas</h1>
-Tecnologia	Descrição
-Python 3	Linguagem principal do projeto
-Biblioteca csv	Geração e manipulação do arquivo de parcelas
-POO (Programação Orientada a Objetos)	Estruturação e organização do sistema
-🧠 Conceitos Aplicados (POO)
 
-O sistema foi desenvolvido com base nos principais pilares da Programação Orientada a Objetos:
+Python 3 – Linguagem principal do projeto
 
-🔹 Abstração – Modelagem dos tipos de imóveis como classes
+Biblioteca padrão csv – Geração do arquivo com as parcelas
 
-🔹 Herança – Reaproveitamento e especialização de comportamentos
+Programação Orientada a Objetos (POO) – Estruturação do sistema
 
-🔹 Encapsulamento – Proteção e organização de atributos e métodos
+<h1>🧠 Conceitos Aplicados (POO)</h1>
+
+O sistema foi desenvolvido com base nos seguintes pilares:
+
+Abstração – Modelagem dos tipos de imóveis como classes
+
+Herança – Reaproveitamento e especialização de comportamentos
+
+Encapsulamento – Proteção e organização de atributos e métodos
 
 <h1>📂 Estrutura do Projeto</h1>
 rm-imobiliaria/
- |
- |-- rm_imobiliaria_poo.py   # Código principal do sistema
- |-- orcamento_rm.csv        # Arquivo gerado com as parcelas
- `-- README.md
-
-<h1>▶️ Como Executar</h1>
-<h2>1️⃣ Pré-requisitos</h2>
+├── rm_imobiliaria_poo.py
+├── orcamento_rm.csv
+└── README.md
+▶️ Como Executar
+Pré-requisitos
 
 Ter o Python 3 instalado na máquina.
 
-<h2>2️⃣ Execução</h2>
+Execução
 
 No terminal, dentro da pasta do projeto:
 
@@ -56,21 +60,14 @@ python rm_imobiliaria_poo.py
 
 Após a execução, o arquivo orcamento_rm.csv será gerado automaticamente no diretório do projeto.
 
-📊 Exemplo de Saída (CSV)
-Parcela	Valor
-1	R$ XXXX
-2	R$ XXXX
-...	...
-12	R$ XXXX
-
 <h1>📚 Objetivo Acadêmico</h1>
 
-Este projeto foi desenvolvido como prática de:
+Este projeto foi desenvolvido para praticar:
 
-Estruturação de sistemas em POO
+Estruturação de sistemas utilizando POO
 
-Organização de código
+Organização e modularização de código
 
 Manipulação de arquivos CSV
 
-Lógica de cálculo aplicada a cenários reais
+Aplicação de lógica de negócios em um cenário real
