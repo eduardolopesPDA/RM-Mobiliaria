@@ -26,11 +26,9 @@ Geração automática de arquivo .csv com 12 parcelas
 
 <h1>🛠️ Tecnologias Utilizadas</h1>
 
-<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height = 60, width = 60 /></p>
+<p>linguagem utilizada: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height = 60, width = 60 /></p> 
 
-Biblioteca padrão csv – Geração do arquivo com as parcelas
 
-Programação Orientada a Objetos (POO) – Estruturação do sistema
 
 <h1>🧠 Conceitos Aplicados (POO)</h1>
 
