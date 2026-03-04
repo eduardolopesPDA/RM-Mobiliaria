@@ -39,12 +39,11 @@ O sistema foi desenvolvido com base nos principais pilares da Programação Orie
 <h1>📂 Estrutura do Projeto</h1>
 📁 rm-imobiliaria/
 
- ├── 
- rm_imobiliaria_poo.py   # Código principal do sistema
- ├── 
- orcamento_rm.csv        # Arquivo gerado com as parcelas
- └── 
- README.md
+ rm-imobiliaria/
+│
+├─ rm_imobiliaria_poo.py   # Código principal do sistema
+├─ orcamento_rm.csv        # Arquivo gerado com as parcelas
+└─ README.md
 
 
 <h1>▶️ Como Executar</h1>
