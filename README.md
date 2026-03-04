@@ -45,12 +45,14 @@ rm-imobiliaria/
 ├── rm_imobiliaria_poo.py
 ├── orcamento_rm.csv
 └── README.md
-▶️ Como Executar
-Pré-requisitos
+
+
+<h1>▶️ Como Executar</h1>
+<h2>requisitos obrigatorios !!</h2>
 
 Ter o Python 3 instalado na máquina.
 
-<h1>como executar o código: </h1>
+<h2>como executar o código: </h2>
 
 No terminal, dentro da pasta do projeto:
 
